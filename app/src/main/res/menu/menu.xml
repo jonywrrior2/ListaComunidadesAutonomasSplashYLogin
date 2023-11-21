@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title=""
+    android:id="@+id/menuOpciones"
+    android:icon="@drawable/baseline_dehaze_24"
+    app:showAsAction="ifRoom">
+
+    <menu>
+        <item android:title="@string/añadir"
+            android:id="@+id/opcionAñadir"
+
+            />
+        <item android:title="@string/borrar"
+            android:id="@+id/opcionBorrar"
+
+            />
+        <item android:title="@string/recargar"
+            android:id="@+id/opcionRecargar"
+
+            />
+    </menu>
+</item>
+
+
+
+</menu>
